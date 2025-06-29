@@ -9,7 +9,7 @@ import preprocessor,Helper
 df = preprocessor.preprocessor()
 
 st.sidebar.title('OLYMPIC ANALYZER')
-st.sidebar.image(r"C:\Users\kushw\Downloads\olympic_-rings_-transparent_-background-png-5ssh2hbbi85o1xrw-2-removebg-preview (1) (1).png")
+st.sidebar.image('logo.png')
 
 user_menu = st.sidebar.radio(
     'Select an Option',
