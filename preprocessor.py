@@ -3,8 +3,8 @@ import pandas as pd
 
 
 def preprocessor():
-    df = pd.read_csv(r"C:\Users\kushw\Downloads\athlete_events.csv\athlete_events.csv")
-    reigon_df = pd.read_csv(r"C:\Users\kushw\Downloads\noc_regions.csv")
+    df = pd.read_csv("athlete_events.csv")
+    reigon_df = pd.read_csv("noc_regions.csv")
 
 
     df = df[df['Season'] == 'Summer']
